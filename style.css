@@ -7,6 +7,10 @@ body {
 .div1 {
   text-align: center;
 }
+.div2 {
+  display: flex;
+  justify-content: space-evenly;
+}
 
 h1 {
   font-size: 25px;
@@ -18,7 +22,31 @@ h1 {
 }
 
 .img2 {
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 100px;
 }
 
+button {
+  position: relative;
+  padding: 1em;
+  color: black;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 0 0 0.5em black;
+  background-color: green;
+  border: solid 0.25em green;
+  border-radius: 1em;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3em;
+}
+
+button:hover{
+  color: black;
+  background-color: greenyellow;
+}
+
+button:active{
+  box-shadow: 0 0 0.6em 0.25em green;
+}
