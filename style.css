@@ -42,16 +42,16 @@ button {
   transition: all 0.3em;
 }
 
-button:hover{
+button:hover {
   color: black;
   background-color: greenyellow;
 }
 
-button:active{
+button:active {
   box-shadow: 0 0 0.6em 0.25em green;
 }
 
-.botao{
+.botao {
   position: relative;
   padding: 1em;
   color: black;
