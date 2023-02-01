@@ -52,17 +52,5 @@ button:active {
 }
 
 .botao {
-  position: relative;
-  padding: 1em;
-  color: black;
-  font-size: 10px;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-shadow: 0 0 0.5em black;
-  background-color: green;
-  border: solid 0.25em green;
-  border-radius: 1em;
-  outline: none;
-  cursor: pointer;
-  transition: all 0.3em;
+border-radius: 1px;
 }
